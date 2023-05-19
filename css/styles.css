@@ -1,3 +1,7 @@
+
+* {
+  box-sizing: border-box;
+}
 :root {
   --modal-backround-kolor: #fcfcfc;
   --header-backround: #ffffff;
@@ -16,6 +20,38 @@ body {
   color: var(--text);
 }
 
+p, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+
+} 
+
+ul {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+.container { 
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+}
+
+.benefits {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 1px;
+}
+
+
+.closing {
+
+  
+}
 .logo-link {
   font-family: "Raleway", sans-serif;
 
@@ -25,6 +61,10 @@ body {
   color: var(--pimary-brand);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+ 
+ 
+ 
+ 
 }
 .logo-link:hover {
   color: var(--pressed-state);
@@ -36,9 +76,15 @@ body {
   align-items: center;
 
   color: var(--light-backround);
+
+
+
 }
 .logo-studio-link {
   color: var(--image-backround);
+  
+
+ 
 }
 
 .link-menu {
@@ -60,6 +106,9 @@ body {
 
 .titlel-section {
   background: var(--image-backround);
+  padding-bottom: 300px;
+  padding-top: 300px;
+
 }
 
 .main-page-title {
@@ -68,6 +117,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--header-backround);
+  
+  
+  margin-bottom: 48px;
 }
 
 .btn-order {
@@ -81,7 +133,15 @@ body {
   color: var(--header-backround);
 
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  
 }
+
 
 .btn-order:hover {
   background-color: var(--pressed-state);
@@ -120,6 +180,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--image-backround);
+  margin-bottom: 8px;
+  padding-top: 120px;
 }
 
 .paragraph {
@@ -138,6 +200,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--image-backround);
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 
 .section-team {
@@ -154,6 +218,9 @@ body {
   text-transform: capitalize;
 
   color: var(--image-backround);
+  padding-top: 120px;
+  padding-bottom: 72px;
+
 }
 
 .images-photo {
@@ -169,6 +236,7 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--image-backround);
+  padding-bottom: 8px;
 }
 
 .specialty {
@@ -182,6 +250,8 @@ body {
 
 .closing {
   background: var(--image-backround);
+  padding-bottom: 156px;
+  padding-top: 156px;
 }
 
 .paragraph-ft {
@@ -189,6 +259,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-backround);
+  
+  margin-top: 18px;
+  
 }
 
 .main-menu-one {
@@ -203,6 +276,13 @@ body {
   letter-spacing: 0.04em;
   color: var(--pimary-brand);
   cursor: pointer;
+
+margin-bottom: 72px;
+  
+}
+.main-menu-one {
+  display: block;
+  margin: 0 auto;
 }
 .main-menu-one:hover {
   color: var(--header-backround);
@@ -222,6 +302,7 @@ body {
 
 .list {
   list-style: none;
+
 }
 
 .link {
@@ -239,6 +320,8 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--image-backround);
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .subtitle {
@@ -248,4 +331,5 @@ body {
 
   letter-spacing: 0.02em;
   color: var(--text);
+  padding-bottom: 32px;
 }
