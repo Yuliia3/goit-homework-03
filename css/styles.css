@@ -44,7 +44,8 @@ margin: 0 auto;
 .benefits {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-bottom: 1px;
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 
 
@@ -61,7 +62,8 @@ margin: 0 auto;
   color: var(--pimary-brand);
   letter-spacing: 0.03em;
   text-transform: uppercase;
- 
+  padding-top: 24px;
+  padding-bottom: 24px;
  
  
  
@@ -76,12 +78,14 @@ margin: 0 auto;
   align-items: center;
 
   color: var(--light-backround);
+  padding-top: 100px;
 
 
 
 }
 .logo-studio-link {
   color: var(--image-backround);
+  margin-right: 76px;
   
 
  
@@ -95,6 +99,7 @@ margin: 0 auto;
   letter-spacing: 0.02em;
 
   color: var(--image-backround);
+  display: flex;
 }
 
 .link-menu:hover {
@@ -106,8 +111,8 @@ margin: 0 auto;
 
 .titlel-section {
   background: var(--image-backround);
-  padding-bottom: 300px;
-  padding-top: 300px;
+  padding-bottom: 188px;
+  padding-top: 188px;
 
 }
 
@@ -139,6 +144,7 @@ margin: 0 auto;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
+  border-radius: 4px;
   
 }
 
@@ -160,6 +166,7 @@ margin: 0 auto;
   color: var(--text);
 
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .link-information:hover {
@@ -182,6 +189,7 @@ margin: 0 auto;
   color: var(--image-backround);
   margin-bottom: 8px;
   padding-top: 120px;
+
 }
 
 .paragraph {
@@ -189,6 +197,7 @@ margin: 0 auto;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  padding-bottom: 120px;
 }
 
 .subtitle-main-page {
@@ -219,12 +228,13 @@ margin: 0 auto;
 
   color: var(--image-backround);
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 
 }
 
 .images-photo {
   background: var(--header-backround);
+  padding-bottom: 120px;
 }
 
 .name {
@@ -259,8 +269,9 @@ margin: 0 auto;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-backround);
+  padding-bottom: 100px;
   
-  margin-top: 18px;
+  margin-top: 16px;
   
 }
 
@@ -302,6 +313,8 @@ margin-bottom: 72px;
 
 .list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -333,3 +346,19 @@ margin-bottom: 72px;
   color: var(--text);
   padding-bottom: 32px;
 }
+ .section-img {
+  padding-bottom: 120px;
+
+ }
+ .img-main-page {
+  margin-right: 24px;
+ }
+ .home-page {
+  padding-top: 96px;
+  padding-bottom: 120px;
+ }
+
+ .navigation {
+  display: flex;
+  align-items: center;
+ }
