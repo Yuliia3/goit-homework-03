@@ -125,6 +125,8 @@ margin: 0 auto;
   
   
   margin-bottom: 48px;
+
+  min-width: 496px;
 }
 
 .btn-order {
