@@ -46,6 +46,10 @@ margin: 0 auto;
 
   
 }
+.header-list {
+  display: flex;
+  gap: 40px;
+}
 
 .list-nav {
  display: flex;
@@ -234,7 +238,7 @@ padding-top: 100px;
   color: var(--image-backround);
   margin-bottom: 8px;
   padding-top: 120px;
- 
+ width: calc((100%/72px)/4);
 
 }
 
@@ -245,6 +249,12 @@ padding-top: 100px;
   color: var(--text);
   padding-bottom: 120px;
  
+}
+.container--page {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .subtitle-main-page {
@@ -420,6 +430,7 @@ padding-top: 100px;
  }
  .img-main-page {
   margin-right: 24px;
+  width: calc((100%-48px)/3);
   
  }
  .home-page {
@@ -428,6 +439,7 @@ padding-top: 100px;
  }
 
  .navigation {
+  align-items: center;
   display: flex;
 
  }
