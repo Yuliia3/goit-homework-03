@@ -56,6 +56,9 @@ margin: 0 auto;
   display: flex;
 }
 
+.benefits-menu {
+  gap: 40px;
+}
 
 .closing {
 padding-top: 100px;
@@ -75,7 +78,7 @@ padding-top: 100px;
   margin-right: 76px;
  display: inline-block;
  margin-bottom: 16px;
- 
+ align-items: center;
  
 }
 .logo-link:hover {
@@ -107,19 +110,17 @@ padding-top: 100px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
   color: var(--image-backround);
   display: flex;
-  margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
-
+  align-items: center;
   
 }
-.link-menu {
-  margin-right: 0;
+.list-nav {
+  display: flex;
+  gap: 40px;
 }
 
 
@@ -145,14 +146,12 @@ padding-top: 100px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--header-backround);
-  
-  
   margin-bottom: 48px;
-
- 
+  max-width: 496px;
+  
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
+  
 }
 
 .btn-order {
@@ -199,7 +198,8 @@ padding-top: 100px;
   display: flex;
   padding-bottom: 24px;
   padding-top: 24px;
-  margin-right: 40px;
+  gap: 40px;
+  align-items: center;
 }
 
 .link-information:hover {
@@ -234,7 +234,7 @@ padding-top: 100px;
   letter-spacing: 0.02em;
   color: var(--text);
   padding-bottom: 120px;
-  margin-right: 24px;
+ 
 }
 
 .subtitle-main-page {
@@ -252,6 +252,8 @@ padding-top: 100px;
 
 .section-team {
   background: var(--light-backround);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .desc-menu {
@@ -271,8 +273,8 @@ padding-top: 100px;
 
 .images-photo {
   background: var(--header-backround);
-  margin-bottom: 120px;
-  margin-right: 24px;
+ 
+  
 }
 
 .name {
@@ -331,6 +333,7 @@ padding-top: 100px;
   margin-right: 24px;
   margin-top: 96px;
   margin-bottom: 72px;
+ 
  
 
 
@@ -419,6 +422,7 @@ padding-top: 100px;
  }
  .list-images {
   display: flex;
+  gap: 24px;
   
  }
  .benefits-menu {
@@ -426,24 +430,25 @@ padding-top: 100px;
  }
  .team-list {
   display: flex;
+  gap: 24px;
  
 }
 .button-list {
   display: flex;
   justify-content: center;
 }
-.button-list :first-child {
-  margin-bottom: 72px;
 
-}.button-list :last-child {
-  margin-right: 0;
-}
+
 .img-list {
   display: flex;
   flex-wrap: wrap;
   
 }
 .container-manu {
-  padding: 32px 16px 32px;
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+
 }
 
