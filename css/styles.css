@@ -432,10 +432,10 @@ padding-top: 100px;
   display: flex;
   justify-content: center;
 }
-.button-list:first-child {
+.button-list :first-child {
   margin-bottom: 72px;
 
-}.button-list:last-child {
+}.button-list :last-child {
   margin-right: 0;
 }
 .img-list {
