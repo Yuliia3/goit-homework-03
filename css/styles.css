@@ -118,6 +118,9 @@ padding-top: 100px;
 
   
 }
+.link-menu {
+  margin-right: 0;
+}
 
 
 
@@ -196,6 +199,7 @@ padding-top: 100px;
   display: flex;
   padding-bottom: 24px;
   padding-top: 24px;
+  margin-right: 40px;
 }
 
 .link-information:hover {
@@ -354,6 +358,9 @@ padding-top: 100px;
 
 .header-list {
   display: flex;
+}
+.header-list :last-child {
+  margin-right: 0;
 }
 
 .list {
