@@ -74,6 +74,7 @@ padding-top: 100px;
   padding-bottom: 24px;
   margin-right: 76px;
  display: inline-block;
+ margin-bottom: 16px;
  
  
 }
@@ -145,7 +146,10 @@ padding-top: 100px;
   
   margin-bottom: 48px;
 
-  max-width: 496px;
+ 
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .btn-order {
@@ -204,6 +208,8 @@ padding-top: 100px;
 
 .information {
   background: var(--header-backround);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-menu {
@@ -326,6 +332,11 @@ padding-top: 100px;
 
   
 }
+.button-list :first-child {
+ 
+
+ 
+}
 
  
 
@@ -388,6 +399,7 @@ padding-top: 100px;
 }
  .section-img {
   padding-bottom: 120px;
+  padding-top: 120px;
 
  }
  .img-main-page {
@@ -423,8 +435,4 @@ padding-top: 100px;
   flex-wrap: wrap;
   
 }
-.container-img {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+
