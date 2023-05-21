@@ -39,6 +39,16 @@ padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
 
+
+
+}
+
+.container-photo {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+  
 }
 
 .header-container{
@@ -65,7 +75,7 @@ margin: 0 auto;
 }
 
 .benefits-menu {
-  gap: 40px;
+  gap: 24px;
 }
 
 .closing {
@@ -238,7 +248,7 @@ padding-top: 100px;
   color: var(--image-backround);
   margin-bottom: 8px;
   padding-top: 120px;
- width: calc((100%/72px)/4);
+ flex-basis:  ((100%/72px)/4);
 
 }
 
@@ -250,7 +260,7 @@ padding-top: 100px;
   padding-bottom: 120px;
  
 }
-.container--page {
+.container-page {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-right: 16px;
@@ -381,7 +391,13 @@ padding-top: 100px;
 .main-menu-one:focus {
   background-color: var(--pressed-state);
 }
-
+ .container-img {
+  padding-top: 32%;
+  padding-bottom: 32px;
+  padding-right: 116px;
+  padding-left: 16px;
+  border: 1px solid var(--acent-color);
+ }
 
 
 
@@ -460,13 +476,30 @@ padding-top: 100px;
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
+.button-list :first-child {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border: 1px solid var(--acent-color);
+
+}
+.button-list :first-child :hover {
+  border: 1px solid transparent;
+}
+.button-list :first-child :focus {
+  border: 1px solid transparent;
+}
+
 
 
 .img-list {
   display: flex;
   flex-wrap: wrap;
-  
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
  
