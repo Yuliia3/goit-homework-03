@@ -172,9 +172,11 @@ padding-top: 100px;
   color: var(--header-backround);
   margin-bottom: 48px;
   max-width: 496px;
-  
-  justify-content: center;
+  margin: 0% auto;
+  margin-bottom: 48px;
   display: flex;
+  justify-content: center;
+  
   
 }
 
@@ -187,6 +189,7 @@ padding-top: 100px;
 
   letter-spacing: 0.04em;
   color: var(--header-backround);
+  
 
   cursor: pointer;
   display: block;
@@ -222,6 +225,7 @@ padding-top: 100px;
   padding-top: 24px;
   gap: 40px;
   display: flex;
+  margin-left: auto;
   
  
 }
@@ -458,6 +462,7 @@ padding-top: 100px;
  .img-main-page {
   margin-right: 24px;
   
+  
 
   
  }
@@ -512,6 +517,7 @@ padding-top: 100px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  
 }
 
  
