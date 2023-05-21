@@ -308,6 +308,13 @@ padding-top: 100px;
   
 }
 
+.container-menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
 
 
 .name {
@@ -392,13 +399,16 @@ padding-top: 100px;
   background-color: var(--pressed-state);
 }
  .container-img {
-  padding-top: 32%;
+  padding-top: 32px;
   padding-bottom: 32px;
-  padding-right: 116px;
+  padding-right: 16px;
   padding-left: 16px;
   border: 1px solid var(--acent-color);
+  border-top: none;
  }
-
+.main-img {
+  width: calc((100% - 48px) / 3); 
+}
 
 
 .list {
@@ -446,7 +456,7 @@ padding-top: 100px;
  }
  .img-main-page {
   margin-right: 24px;
-  width: calc((100%-48px)/3);
+  width: calc((100% - 48px) / 3);
   
  }
  .home-page {
