@@ -176,8 +176,8 @@ padding-top: 100px;
   max-width: 496px;
   margin: 0% auto;
   margin-bottom: 48px;
-  display: flex;
-  justify-content: center;
+ margin-right: auto;
+ margin-left: auto;
   
   
 }
