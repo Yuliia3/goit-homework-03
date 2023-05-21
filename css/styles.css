@@ -64,9 +64,10 @@ margin: 0 auto;
 .list-nav {
  display: flex;
  align-items: center;
- 
+ gap: 40px;
   
 }
+
 
 .benefits {
  
@@ -79,7 +80,8 @@ margin: 0 auto;
 }
 
 .closing {
-padding: 100px 0;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -145,10 +147,7 @@ padding: 100px 0;
   
 }
 
-.list-nav {
-  display: flex;
-  gap: 40px;
-}
+
 
 
 
