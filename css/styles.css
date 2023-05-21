@@ -257,7 +257,7 @@ padding: 100px 0;
   color: var(--image-backround);
   margin-bottom: 8px;
   padding-top: 120px;
- width: calc((100% - 72px) / 4);
+
 
 }
 
@@ -389,6 +389,9 @@ padding: 100px 0;
   
 }
 
+.menu-text {
+  width: calc((100% - 72px) / 4);
+}
 
  
 
