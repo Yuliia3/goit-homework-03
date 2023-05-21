@@ -132,6 +132,8 @@ padding-top: 100px;
   color: var(--image-backround);
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
   
 
  
@@ -413,6 +415,7 @@ padding-top: 100px;
  }
 .main-img {
   width: calc((100% - 48px) / 3); 
+
 }
 
 
@@ -433,6 +436,10 @@ padding-top: 100px;
   font-style: normal;
   
 }
+.menu-text {
+  width: calc((100%-72px) / 4);
+}
+
 
 .title {
   font-weight: 500;
@@ -465,6 +472,10 @@ padding-top: 100px;
   
 
   
+ }
+
+ .page-manu-img {
+  width: calc((100%-48px) / 3);
  }
  .home-page {
   padding-top: 96px;
