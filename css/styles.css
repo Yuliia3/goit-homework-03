@@ -41,9 +41,6 @@ img {
   margin: 0 auto;
 }
 
-
-
-
 .header-container {
   display: flex;
 }
@@ -82,9 +79,9 @@ img {
   text-transform: uppercase;
 
   margin-right: 76px;
-  margin-bottom: 16px;
+
   display: inline-block;
-  
+
   align-items: center;
 }
 .logo-link:hover {
@@ -97,9 +94,8 @@ img {
   align-items: center;
 
   color: var(--light-backround);
- 
+
   display: inline-block;
- 
 }
 .logo-studio-link {
   color: var(--image-backround);
@@ -228,7 +224,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--image-backround);
   margin-bottom: 8px;
-  
 }
 
 .paragraph {
@@ -236,7 +231,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
-  
 }
 .container-page {
   padding-top: 32px;
@@ -254,9 +248,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--image-backround);
-  margin-top: 120px;
+
   margin-bottom: 72px;
-  
 }
 
 .section-team {
@@ -275,7 +268,7 @@ img {
   text-transform: capitalize;
 
   color: var(--image-backround);
-  padding-top: 120px;
+
   margin-bottom: 72px;
 }
 
@@ -301,7 +294,6 @@ img {
 
   color: var(--image-backround);
   margin-bottom: 8px;
- 
 }
 
 .specialty {
@@ -311,7 +303,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text);
- 
 }
 
 .closing {
@@ -323,9 +314,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-backround);
-  
 
- 
   max-width: 264px;
 }
 
@@ -341,8 +330,8 @@ img {
   letter-spacing: 0.04em;
   color: var(--pimary-brand);
   cursor: pointer;
-padding: 12px 24px;
-border: 1px solid var(--acent-color);
+  padding: 12px 24px;
+  border: 1px solid var(--acent-color);
 }
 
 .menu-text {
@@ -395,7 +384,7 @@ border: 1px solid var(--acent-color);
   letter-spacing: 0.02em;
 
   color: var(--image-backround);
-  
+
   margin-bottom: 8px;
 }
 
@@ -406,11 +395,9 @@ border: 1px solid var(--acent-color);
 
   letter-spacing: 0.02em;
   color: var(--text);
-  
 }
 .section-img {
   padding-bottom: 120px;
-  
 }
 .img-main-page {
   margin-right: 24px;
@@ -459,6 +446,3 @@ border: 1px solid var(--acent-color);
   column-gap: 24px;
   row-gap: 48px;
 }
-
-
-
